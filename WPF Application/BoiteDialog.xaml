@@ -1,0 +1,31 @@
+﻿<Window x:Class="WPF_Application.BoiteDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Application"
+        mc:Ignorable="d"
+        Title="BoiteDialog" Height="306.11" Width="550.4">
+    <Grid Margin="15">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+
+
+        <Label x:Name="lblQuestion" Grid.Column="1" Content="Choisissez un numéro de filtre parmi la liste ci-dessous :"/>
+        <TextBox Name="txtAnswer" Grid.Column="1" Grid.Row="1" MinWidth="250"></TextBox>
+
+        <WrapPanel Grid.Row="2" Grid.ColumnSpan="2" Grid.RowSpan ="2" HorizontalAlignment="Right" Margin="0,184.2,0.2,-169.4">
+            <Button IsDefault="True" Name="btnDialogOk" MinWidth="60" Margin="0,0,10,0" Click="btnDialogOk_Click">_Ok</Button>
+            <Button IsCancel="True" MinWidth="60">_Cancel</Button>
+        </WrapPanel>
+        <TextBlock Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="0,10.2,0,-105.4" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Height="132" Width="338"><Run Text="1 --&gt; Identité"/><LineBreak/><Run Text="2 --&gt; Détection"/><Run Text=" des contours"/><Run Text=" n°1"/><LineBreak/><Run Text="3 --&gt; Détection"/><Run Text=" des contours"/><Run Text=" n°2"/><LineBreak/><Run Text="4 --&gt; Détection"/><Run Text=" des contours"/><Run Text=" n°3"/><LineBreak/><Run Text="5 --&gt; "/><Run Text="Netteté"/><LineBreak/><Run Text="6 --&gt; "/><Run Text="Flou"/><LineBreak/><Run Text="7 --&gt; "/><Run Text="Flou Gaussien 3x3"/><LineBreak/><Run Text="8 --&gt; "/><Run Text="Flou Gaussien 5x5"/><LineBreak/><Run/></TextBlock>
+    </Grid>
+</Window>

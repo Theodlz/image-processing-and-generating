@@ -1,0 +1,5 @@
+D:\Projet Info\Projet Info\Projet Info\bin\Release\Projet Info.exe.config
+D:\Projet Info\Projet Info\Projet Info\bin\Release\Projet Info.exe
+D:\Projet Info\Projet Info\Projet Info\bin\Release\Projet Info.pdb
+D:\Projet Info\Projet Info\Projet Info\obj\Release\Projet Info.exe
+D:\Projet Info\Projet Info\Projet Info\obj\Release\Projet Info.pdb

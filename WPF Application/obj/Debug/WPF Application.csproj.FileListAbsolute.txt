@@ -1,0 +1,172 @@
+C:\Users\Hugo\source\repos\Projet Info\WPF Application\obj\Debug\WPF Application.csprojAssemblyReference.cache
+C:\Users\Hugo\source\repos\Projet Info\WPF Application\obj\Debug\MainWindow.baml
+C:\Users\Hugo\source\repos\Projet Info\WPF Application\obj\Debug\MainWindow.g.cs
+C:\Users\Hugo\source\repos\Projet Info\WPF Application\obj\Debug\App.g.cs
+C:\Users\Hugo\source\repos\Projet Info\WPF Application\obj\Debug\WPF Application_MarkupCompile.cache
+C:\Users\Hugo\source\repos\Projet Info\WPF Application\obj\Debug\WPF Application.g.resources
+C:\Users\Hugo\source\repos\Projet Info\WPF Application\obj\Debug\WPF_Application.Properties.Resources.resources
+C:\Users\Hugo\source\repos\Projet Info\WPF Application\obj\Debug\WPF Application.csproj.GenerateResource.cache
+C:\Users\Hugo\source\repos\Projet Info\WPF Application\obj\Debug\WPF Application.csproj.CoreCompileInputs.cache
+C:\Users\Hugo\source\repos\Projet Info\WPF Application\bin\Debug\WPF Application.exe.config
+C:\Users\Hugo\source\repos\Projet Info\WPF Application\bin\Debug\WPF Application.exe
+C:\Users\Hugo\source\repos\Projet Info\WPF Application\bin\Debug\WPF Application.pdb
+C:\Users\Hugo\source\repos\Projet Info\WPF Application\bin\Debug\Projet Info.exe
+C:\Users\Hugo\source\repos\Projet Info\WPF Application\bin\Debug\Projet Info.pdb
+C:\Users\Hugo\source\repos\Projet Info\WPF Application\bin\Debug\Projet Info.xml
+C:\Users\Hugo\source\repos\Projet Info\WPF Application\bin\Debug\Projet Info.exe.config
+C:\Users\Hugo\source\repos\Projet Info\WPF Application\obj\Debug\WPF Application_MarkupCompile.lref
+C:\Users\Hugo\source\repos\Projet Info\WPF Application\obj\Debug\WPF Application.csproj.CopyComplete
+C:\Users\Hugo\source\repos\Projet Info\WPF Application\obj\Debug\WPF Application.exe
+C:\Users\Hugo\source\repos\Projet Info\WPF Application\obj\Debug\WPF Application.pdb
+D:\Hugo\Desktop\Projet Info\WPF Application\bin\Debug\WPF Application.exe.config
+D:\Hugo\Desktop\Projet Info\WPF Application\bin\Debug\WPF Application.exe
+D:\Hugo\Desktop\Projet Info\WPF Application\bin\Debug\WPF Application.pdb
+D:\Hugo\Desktop\Projet Info\WPF Application\bin\Debug\Projet Info.exe
+D:\Hugo\Desktop\Projet Info\WPF Application\bin\Debug\Projet Info.pdb
+D:\Hugo\Desktop\Projet Info\WPF Application\bin\Debug\Projet Info.xml
+D:\Hugo\Desktop\Projet Info\WPF Application\bin\Debug\Projet Info.exe.config
+D:\Hugo\Desktop\Projet Info\WPF Application\obj\Debug\WPF Application.csprojAssemblyReference.cache
+D:\Hugo\Desktop\Projet Info\WPF Application\obj\Debug\MainWindow.g.cs
+D:\Hugo\Desktop\Projet Info\WPF Application\obj\Debug\App.g.cs
+D:\Hugo\Desktop\Projet Info\WPF Application\obj\Debug\WPF Application_MarkupCompile.cache
+D:\Hugo\Desktop\Projet Info\WPF Application\obj\Debug\WPF Application_MarkupCompile.lref
+D:\Hugo\Desktop\Projet Info\WPF Application\obj\Debug\MainWindow.baml
+D:\Hugo\Desktop\Projet Info\WPF Application\obj\Debug\WPF Application.g.resources
+D:\Hugo\Desktop\Projet Info\WPF Application\obj\Debug\WPF_Application.Properties.Resources.resources
+D:\Hugo\Desktop\Projet Info\WPF Application\obj\Debug\WPF Application.csproj.GenerateResource.cache
+D:\Hugo\Desktop\Projet Info\WPF Application\obj\Debug\WPF Application.csproj.CoreCompileInputs.cache
+D:\Hugo\Desktop\Projet Info\WPF Application\obj\Debug\WPF Application.csproj.CopyComplete
+D:\Hugo\Desktop\Projet Info\WPF Application\obj\Debug\WPF Application.exe
+D:\Hugo\Desktop\Projet Info\WPF Application\obj\Debug\WPF Application.pdb
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\bin\Debug\WPF Application.exe.config
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\bin\Debug\WPF Application.exe
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\bin\Debug\WPF Application.pdb
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\bin\Debug\Projet Info.exe
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\bin\Debug\Projet Info.pdb
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\bin\Debug\Projet Info.xml
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\bin\Debug\Projet Info.exe.config
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\obj\Debug\WPF Application.csprojAssemblyReference.cache
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\obj\Debug\MainWindow.g.cs
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\obj\Debug\App.g.cs
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\obj\Debug\WPF Application_MarkupCompile.cache
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\obj\Debug\WPF Application_MarkupCompile.lref
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\obj\Debug\MainWindow.baml
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\obj\Debug\WPF Application.g.resources
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\obj\Debug\WPF_Application.Properties.Resources.resources
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\obj\Debug\WPF Application.csproj.GenerateResource.cache
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\obj\Debug\WPF Application.csproj.CopyComplete
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\obj\Debug\WPF Application.exe
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\obj\Debug\WPF Application.pdb
+D:\Hugo\Desktop\Projet Info\WPF Application\obj\Debug\SubWindow.g.cs
+D:\Hugo\Desktop\Projet Info\WPF Application\obj\Debug\SubWindow.baml
+D:\Projet Info\WPF Application\bin\Debug\WPF Application.exe.config
+D:\Projet Info\WPF Application\bin\Debug\WPF Application.exe
+D:\Projet Info\WPF Application\bin\Debug\WPF Application.pdb
+D:\Projet Info\WPF Application\bin\Debug\Projet Info.exe
+D:\Projet Info\WPF Application\bin\Debug\Projet Info.pdb
+D:\Projet Info\WPF Application\bin\Debug\Projet Info.xml
+D:\Projet Info\WPF Application\bin\Debug\Projet Info.exe.config
+D:\Projet Info\WPF Application\obj\Debug\WPF Application.csprojAssemblyReference.cache
+D:\Projet Info\WPF Application\obj\Debug\MainWindow.g.cs
+D:\Projet Info\WPF Application\obj\Debug\SubWindow.g.cs
+D:\Projet Info\WPF Application\obj\Debug\App.g.cs
+D:\Projet Info\WPF Application\obj\Debug\WPF Application_MarkupCompile.cache
+D:\Projet Info\WPF Application\obj\Debug\WPF Application_MarkupCompile.lref
+D:\Projet Info\WPF Application\obj\Debug\MainWindow.baml
+D:\Projet Info\WPF Application\obj\Debug\SubWindow.baml
+D:\Projet Info\WPF Application\obj\Debug\WPF Application.g.resources
+D:\Projet Info\WPF Application\obj\Debug\WPF_Application.Properties.Resources.resources
+D:\Projet Info\WPF Application\obj\Debug\WPF Application.csproj.GenerateResource.cache
+D:\Projet Info\WPF Application\obj\Debug\WPF Application.csproj.CopyComplete
+D:\Projet Info\WPF Application\obj\Debug\WPF Application.exe
+D:\Projet Info\WPF Application\obj\Debug\WPF Application.pdb
+D:\Hugo\Desktop\Projet Info\WPF Application\obj\Debug\Coloring.g.cs
+D:\Hugo\Desktop\Projet Info\WPF Application\obj\Debug\Coloring.baml
+D:\Hugo\Desktop\Projet Info\WPF Application\obj\Debug\BoiteDialog.g.cs
+D:\Hugo\Desktop\Projet Info\WPF Application\obj\Debug\BoiteDialog.baml
+D:\Projet Info\Projet Info\WPF Application\bin\Debug\WPF Application.exe.config
+D:\Projet Info\Projet Info\WPF Application\bin\Debug\WPF Application.exe
+D:\Projet Info\Projet Info\WPF Application\bin\Debug\WPF Application.pdb
+D:\Projet Info\Projet Info\WPF Application\bin\Debug\Projet Info.exe
+D:\Projet Info\Projet Info\WPF Application\bin\Debug\Projet Info.pdb
+D:\Projet Info\Projet Info\WPF Application\bin\Debug\Projet Info.xml
+D:\Projet Info\Projet Info\WPF Application\bin\Debug\Projet Info.exe.config
+D:\Projet Info\Projet Info\WPF Application\obj\Debug\WPF Application.csprojAssemblyReference.cache
+D:\Projet Info\Projet Info\WPF Application\obj\Debug\BoiteDialog.g.cs
+D:\Projet Info\Projet Info\WPF Application\obj\Debug\Coloring.g.cs
+D:\Projet Info\Projet Info\WPF Application\obj\Debug\MainWindow.g.cs
+D:\Projet Info\Projet Info\WPF Application\obj\Debug\SubWindow.g.cs
+D:\Projet Info\Projet Info\WPF Application\obj\Debug\App.g.cs
+D:\Projet Info\Projet Info\WPF Application\obj\Debug\WPF Application_MarkupCompile.cache
+D:\Projet Info\Projet Info\WPF Application\obj\Debug\WPF Application_MarkupCompile.lref
+D:\Projet Info\Projet Info\WPF Application\obj\Debug\BoiteDialog.baml
+D:\Projet Info\Projet Info\WPF Application\obj\Debug\Coloring.baml
+D:\Projet Info\Projet Info\WPF Application\obj\Debug\MainWindow.baml
+D:\Projet Info\Projet Info\WPF Application\obj\Debug\SubWindow.baml
+D:\Projet Info\Projet Info\WPF Application\obj\Debug\WPF Application.g.resources
+D:\Projet Info\Projet Info\WPF Application\obj\Debug\WPF_Application.Properties.Resources.resources
+D:\Projet Info\Projet Info\WPF Application\obj\Debug\WPF Application.csproj.GenerateResource.cache
+D:\Projet Info\Projet Info\WPF Application\obj\Debug\WPF Application.csproj.CopyComplete
+D:\Projet Info\Projet Info\WPF Application\obj\Debug\WPF Application.exe
+D:\Projet Info\Projet Info\WPF Application\obj\Debug\WPF Application.pdb
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\bin\Debug\WPF Application.exe.config
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\bin\Debug\WPF Application.exe
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\bin\Debug\WPF Application.pdb
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\bin\Debug\Projet Info.exe
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\bin\Debug\Projet Info.pdb
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\bin\Debug\Projet Info.xml
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\bin\Debug\Projet Info.exe.config
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\obj\Debug\WPF Application.csprojAssemblyReference.cache
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\obj\Debug\BoiteDialog.g.cs
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\obj\Debug\Coloring.g.cs
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\obj\Debug\MainWindow.g.cs
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\obj\Debug\SubWindow.g.cs
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\obj\Debug\App.g.cs
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\obj\Debug\WPF Application_MarkupCompile.cache
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\obj\Debug\WPF Application_MarkupCompile.lref
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\obj\Debug\BoiteDialog.baml
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\obj\Debug\Coloring.baml
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\obj\Debug\MainWindow.baml
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\obj\Debug\SubWindow.baml
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\obj\Debug\WPF Application.g.resources
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\obj\Debug\WPF_Application.Properties.Resources.resources
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\obj\Debug\WPF Application.csproj.GenerateResource.cache
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\obj\Debug\WPF Application.csproj.CoreCompileInputs.cache
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\obj\Debug\WPF Application.csproj.CopyComplete
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\obj\Debug\WPF Application.exe
+D:\Hugo\Desktop\Projet Info\Projet Info\WPF Application\obj\Debug\WPF Application.pdb
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\bin\Debug\WPF Application.exe.config
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\bin\Debug\WPF Application.exe
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\bin\Debug\WPF Application.pdb
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\bin\Debug\Projet Info.exe
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\bin\Debug\Projet Info.pdb
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\bin\Debug\Projet Info.xml
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\bin\Debug\Projet Info.exe.config
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\obj\Debug\WPF Application.csprojAssemblyReference.cache
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\obj\Debug\BoiteDialog.g.cs
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\obj\Debug\Coloring.g.cs
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\obj\Debug\MainWindow.g.cs
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\obj\Debug\SubWindow.g.cs
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\obj\Debug\App.g.cs
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\obj\Debug\WPF Application_MarkupCompile.cache
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\obj\Debug\WPF Application_MarkupCompile.lref
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\obj\Debug\BoiteDialog.baml
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\obj\Debug\Coloring.baml
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\obj\Debug\MainWindow.baml
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\obj\Debug\SubWindow.baml
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\obj\Debug\WPF Application.g.resources
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\obj\Debug\WPF_Application.Properties.Resources.resources
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\obj\Debug\WPF Application.csproj.GenerateResource.cache
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\obj\Debug\WPF Application.csproj.CopyComplete
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\obj\Debug\WPF Application.exe
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\obj\Debug\WPF Application.pdb
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\obj\Debug\TailleImage.g.cs
+D:\Projet Info 0405\Projet Info\Projet Info\WPF Application\obj\Debug\TailleImage.baml
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\obj\Debug\BoiteDialog.g.cs
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\obj\Debug\Coloring.g.cs
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\obj\Debug\SubWindow.g.cs
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\obj\Debug\TailleImage.g.cs
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\obj\Debug\BoiteDialog.baml
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\obj\Debug\Coloring.baml
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\obj\Debug\SubWindow.baml
+C:\Users\Theo dlz\Desktop\Projet Info\WPF Application\obj\Debug\TailleImage.baml

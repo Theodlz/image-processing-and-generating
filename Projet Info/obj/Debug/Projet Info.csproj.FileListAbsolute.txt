@@ -1,0 +1,44 @@
+C:\Users\Hugo\source\repos\Projet Info\Projet Info\obj\Debug\Projet Info.csprojAssemblyReference.cache
+C:\Users\Hugo\source\repos\Projet Info\Projet Info\obj\Debug\Projet Info.csproj.CoreCompileInputs.cache
+C:\Users\Hugo\source\repos\Projet Info\Projet Info\bin\Debug\Projet Info.exe.config
+C:\Users\Hugo\source\repos\Projet Info\Projet Info\bin\Debug\Projet Info.xml
+C:\Users\Hugo\source\repos\Projet Info\Projet Info\bin\Debug\Projet Info.exe
+C:\Users\Hugo\source\repos\Projet Info\Projet Info\bin\Debug\Projet Info.pdb
+C:\Users\Hugo\source\repos\Projet Info\Projet Info\obj\Debug\Projet Info.exe
+C:\Users\Hugo\source\repos\Projet Info\Projet Info\obj\Debug\Projet Info.pdb
+C:\Users\Theo dlz\Desktop\Projet Info\Projet Info\bin\Debug\Projet Info.exe.config
+C:\Users\Theo dlz\Desktop\Projet Info\Projet Info\bin\Debug\Projet Info.xml
+C:\Users\Theo dlz\Desktop\Projet Info\Projet Info\bin\Debug\Projet Info.exe
+C:\Users\Theo dlz\Desktop\Projet Info\Projet Info\bin\Debug\Projet Info.pdb
+C:\Users\Theo dlz\Desktop\Projet Info\Projet Info\obj\Debug\Projet Info.csprojAssemblyReference.cache
+C:\Users\Theo dlz\Desktop\Projet Info\Projet Info\obj\Debug\Projet Info.exe
+C:\Users\Theo dlz\Desktop\Projet Info\Projet Info\obj\Debug\Projet Info.pdb
+D:\Hugo\Desktop\Projet Info\Projet Info\bin\Debug\Projet Info.exe.config
+D:\Hugo\Desktop\Projet Info\Projet Info\bin\Debug\Projet Info.xml
+D:\Hugo\Desktop\Projet Info\Projet Info\bin\Debug\Projet Info.exe
+D:\Hugo\Desktop\Projet Info\Projet Info\bin\Debug\Projet Info.pdb
+D:\Hugo\Desktop\Projet Info\Projet Info\obj\Debug\Projet Info.csprojAssemblyReference.cache
+D:\Hugo\Desktop\Projet Info\Projet Info\obj\Debug\Projet Info.csproj.CoreCompileInputs.cache
+D:\Hugo\Desktop\Projet Info\Projet Info\obj\Debug\Projet Info.exe
+D:\Hugo\Desktop\Projet Info\Projet Info\obj\Debug\Projet Info.pdb
+D:\Projet Info\Projet Info\bin\Debug\Projet Info.exe.config
+D:\Projet Info\Projet Info\bin\Debug\Projet Info.xml
+D:\Projet Info\Projet Info\bin\Debug\Projet Info.exe
+D:\Projet Info\Projet Info\bin\Debug\Projet Info.pdb
+D:\Projet Info\Projet Info\obj\Debug\Projet Info.csprojAssemblyReference.cache
+D:\Projet Info\Projet Info\obj\Debug\Projet Info.exe
+D:\Projet Info\Projet Info\obj\Debug\Projet Info.pdb
+D:\Projet Info\Projet Info\Projet Info\obj\Debug\Projet Info.csprojAssemblyReference.cache
+D:\Projet Info\Projet Info\Projet Info\obj\Debug\Projet Info.exe
+D:\Projet Info\Projet Info\Projet Info\obj\Debug\Projet Info.pdb
+D:\Projet Info\Projet Info\Projet Info\bin\Debug\Projet Info.exe.config
+D:\Projet Info\Projet Info\Projet Info\bin\Debug\Projet Info.xml
+D:\Projet Info\Projet Info\Projet Info\bin\Debug\Projet Info.exe
+D:\Projet Info\Projet Info\Projet Info\bin\Debug\Projet Info.pdb
+D:\Projet Info 0405\Projet Info\Projet Info\Projet Info\bin\Debug\Projet Info.exe.config
+D:\Projet Info 0405\Projet Info\Projet Info\Projet Info\bin\Debug\Projet Info.xml
+D:\Projet Info 0405\Projet Info\Projet Info\Projet Info\bin\Debug\Projet Info.exe
+D:\Projet Info 0405\Projet Info\Projet Info\Projet Info\bin\Debug\Projet Info.pdb
+D:\Projet Info 0405\Projet Info\Projet Info\Projet Info\obj\Debug\Projet Info.csprojAssemblyReference.cache
+D:\Projet Info 0405\Projet Info\Projet Info\Projet Info\obj\Debug\Projet Info.exe
+D:\Projet Info 0405\Projet Info\Projet Info\Projet Info\obj\Debug\Projet Info.pdb

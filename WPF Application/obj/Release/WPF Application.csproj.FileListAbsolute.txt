@@ -1,0 +1,24 @@
+D:\Projet Info\Projet Info\WPF Application\bin\Release\WPF Application.exe.config
+D:\Projet Info\Projet Info\WPF Application\bin\Release\WPF Application.exe
+D:\Projet Info\Projet Info\WPF Application\bin\Release\WPF Application.pdb
+D:\Projet Info\Projet Info\WPF Application\bin\Release\Projet Info.exe
+D:\Projet Info\Projet Info\WPF Application\bin\Release\Projet Info.pdb
+D:\Projet Info\Projet Info\WPF Application\bin\Release\Projet Info.exe.config
+D:\Projet Info\Projet Info\WPF Application\obj\Release\WPF Application.csprojAssemblyReference.cache
+D:\Projet Info\Projet Info\WPF Application\obj\Release\BoiteDialog.g.cs
+D:\Projet Info\Projet Info\WPF Application\obj\Release\Coloring.g.cs
+D:\Projet Info\Projet Info\WPF Application\obj\Release\MainWindow.g.cs
+D:\Projet Info\Projet Info\WPF Application\obj\Release\SubWindow.g.cs
+D:\Projet Info\Projet Info\WPF Application\obj\Release\App.g.cs
+D:\Projet Info\Projet Info\WPF Application\obj\Release\WPF Application_MarkupCompile.cache
+D:\Projet Info\Projet Info\WPF Application\obj\Release\WPF Application_MarkupCompile.lref
+D:\Projet Info\Projet Info\WPF Application\obj\Release\BoiteDialog.baml
+D:\Projet Info\Projet Info\WPF Application\obj\Release\Coloring.baml
+D:\Projet Info\Projet Info\WPF Application\obj\Release\MainWindow.baml
+D:\Projet Info\Projet Info\WPF Application\obj\Release\SubWindow.baml
+D:\Projet Info\Projet Info\WPF Application\obj\Release\WPF Application.g.resources
+D:\Projet Info\Projet Info\WPF Application\obj\Release\WPF_Application.Properties.Resources.resources
+D:\Projet Info\Projet Info\WPF Application\obj\Release\WPF Application.csproj.GenerateResource.cache
+D:\Projet Info\Projet Info\WPF Application\obj\Release\WPF Application.csproj.CopyComplete
+D:\Projet Info\Projet Info\WPF Application\obj\Release\WPF Application.exe
+D:\Projet Info\Projet Info\WPF Application\obj\Release\WPF Application.pdb

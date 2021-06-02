@@ -1,0 +1,681 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Projet Info</name>
+    </assembly>
+    <members>
+        <member name="T:Probleme_Info.BMP">
+            <summary>
+            Classe image BMP
+            </summary>
+        </member>
+        <member name="P:Probleme_Info.BMP.imageWidth">
+            <summary>
+            Largeur de l'image
+            </summary>
+        </member>
+        <member name="P:Probleme_Info.BMP.imageHeight">
+            <summary>
+            Hauteur de l'image
+            </summary>
+        </member>
+        <member name="P:Probleme_Info.BMP.imageRGB">
+            <summary>
+            Matrice de pixel RGB = Image couleur
+            </summary>
+        </member>
+        <member name="M:Probleme_Info.BMP.#ctor(System.String)">
+            <summary>
+            Constructeur qui lit une image format BMP
+            </summary>
+            <param name="path"> che min d'accès de l'image</param>
+        </member>
+        <member name="M:Probleme_Info.BMP.#ctor(System.Int32,System.Int32,Probleme_Info.RGB)">
+            <summary>
+            Constructeur qui permet la création d'une image pour laquelle chaque pixel possède la même couleur RGB (image couleur unie)
+            </summary>
+            <param name="height"> hauteur de l'image souhaitée</param>
+            <param name="width"> largeur de l'image souhaitée</param>
+            <param name="rgb"> couleur RGB de chaque pixel</param>
+        </member>
+        <member name="M:Probleme_Info.BMP.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Constructeur qui permet la création d'une image noire de taille choisie
+            </summary>
+            <param name="height"> hauteur de l'image souhaitée</param>
+            <param name="width"> largeur de l'image souhaitée</param>
+        </member>
+        <member name="M:Probleme_Info.BMP.#ctor(System.Byte[0:,0:])">
+            <summary>
+            Constructeur qui dessine un QR Code
+            </summary>
+            <param name="qr">matrice de byte contenant les infos du qr code à dessiner</param>
+        </member>
+        <member name="M:Probleme_Info.BMP.ToString">
+            <summary>
+            Création d'un string contenant les infos principales à propos de l'image
+            </summary>
+            <returns> return la chaîne d'infos</returns>
+        </member>
+        <member name="M:Probleme_Info.BMP.ShowBMP">
+            <summary>
+            Réalise un résumé des infos de chaque pixel composant l'image
+            </summary>
+            <returns>return le résumé de tous les pixels</returns>
+        </member>
+        <member name="M:Probleme_Info.BMP.GetPixel(System.Int32,System.Int32)">
+            <summary>
+            Retourne les valeurs RGB du pixel placé aux coordonnées en entrée
+            </summary>
+            <param name="x"> coordonnée ligne</param>
+            <param name="y"> coordonnée colonne</param>
+            <returns></returns>
+        </member>
+        <member name="M:Probleme_Info.BMP.SetPixel(System.Int32,System.Int32,Probleme_Info.RGB)">
+            <summary>
+            Set les valeurs RGB du pixel placé aux coordonnées en entrée
+            </summary>
+            <param name="x"> coordonnée ligne</param>
+            <param name="y"> coordonnée colonne</param>
+            <param name="color"> couleur RGB</param>
+        </member>
+        <member name="M:Probleme_Info.BMP.Fill(Probleme_Info.RGB[0:,0:],Probleme_Info.RGB)">
+            <summary>
+            Set les valeurs RGB de tous les pixels de l'image en entrée
+            </summary>
+            <param name="img"> tableu de pixel RGB (image)</param>
+            <param name="color"> couleur RGB</param>
+        </member>
+        <member name="M:Probleme_Info.BMP.Negatif">
+            <summary>
+            Réalise le négatif de l'image en appliquant la fonction négatif à chaque pixel de  l'image
+            </summary>
+        </member>
+        <member name="M:Probleme_Info.BMP.BW">
+            <summary>
+            Passe l'image en noir et blanc en appliquant la fonction bw, qui attribue une valeur de noir et blanc, à chaque pixel de l'image
+            </summary>
+        </member>
+        <member name="M:Probleme_Info.BMP.Save(System.String)">
+            <summary>
+            Sauvegarde l'image avec le nom de fichier en paramètre
+            </summary>
+            <param name="fileName"> nom d'enregistrement du fichier</param>
+        </member>
+        <member name="M:Probleme_Info.BMP.EndianToInt(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Convertit un tableau de byte (little endian) en int
+            </summary>
+            <param name="tab"> tableau de byte à convertir</param>
+            <param name="highIndex"> index de départ des données à convertir</param>
+            <param name="lowIndex"> index d'arrivée des données à convertir</param>
+            <returns></returns>
+        </member>
+        <member name="M:Probleme_Info.BMP.IntToBinary(System.Int32)">
+            <summary>
+            Convertit un int en byte
+            </summary>
+            <param name="nombre"> int à convertir</param>
+            <returns> return la conversion du nombre sous forme d'un tableau de byte  </returns>
+        </member>
+        <member name="M:Probleme_Info.BMP.MirrorVertical">
+            <summary>
+            Réalise le miroir vertical de l'image
+            </summary>
+        </member>
+        <member name="M:Probleme_Info.BMP.MirrorHorizontal">
+            <summary>
+            Réalise le miroir horizontal de l'image
+            </summary>
+        </member>
+        <member name="M:Probleme_Info.BMP.Rotation(System.Double)">
+            <summary>
+            Réalise la rotation d'une image pour un angle de 90, 180 ou 270 degré
+            </summary>
+            <param name="degre"> angle de rotation parmi 90/180/270</param>
+        </member>
+        <member name="M:Probleme_Info.BMP.ChoixFiltre(System.Int32)">
+            <summary>
+            Choix du filtre de convolutiom
+            </summary>
+            <param name="choix"> numero correspondant a un filtre de convolution choisi / filtre</param>
+        </member>
+        <member name="M:Probleme_Info.BMP.Filtre2(System.Int32,System.Int32)">
+            <summary>
+            Application du filtre (matrice de convolution) entré en paramètre sur l'image
+            </summary>
+            <param name="choix"> choix de la matrice de convolution / filtre parmi une sélection</param>
+            <param name="pas"></param>
+        </member>
+        <member name="M:Probleme_Info.BMP.Filtre(System.Int32,System.Int32)">
+            <summary>
+            2e version de l'Application du filtre (matrice de convolution) entré en paramètre sur l'image
+             Cette version est celle utilisee dans le WPF, sa normalisation a ete modifiee
+            </summary>
+            <param name="choix"> choix de la matrice de convolution / filtre parmi une sélection</param>
+            <param name="pas"></param>
+        </member>
+        <member name="M:Probleme_Info.BMP.MergeHist(Probleme_Info.BMP)">
+            <summary>
+            Réalise la fusion de deux courbes pour la fonction Histogramme
+            </summary>
+            <param name="img1"></param>
+        </member>
+        <member name="M:Probleme_Info.BMP.MergeMoyenne(Probleme_Info.BMP)">
+            <summary>
+            Réalise la fusion de deux images de même taille en prenant la moyenne de chaque pixel
+            </summary>
+            <param name="img1"></param>
+        </member>
+        <member name="M:Probleme_Info.BMP.RotationTeta(System.Double)">
+            <summary>
+            Réalise la rotation d'une image pour un angle quelconque
+            </summary>
+            <param name="teta"> angle de rotation quelconque</param>
+        </member>
+        <member name="M:Probleme_Info.BMP.Mandelbrot(System.Double,System.Int32,System.Double,System.Double,System.Double,System.Boolean,System.Boolean,System.Boolean,System.Int32)">
+            <summary>
+            Fractale ensemble de Mandelbrot
+            </summary>
+        </member>
+        <member name="M:Probleme_Info.BMP.EnsembleDeJulia(System.Double,System.Int32,System.Double,System.Double,System.Double,System.Double,System.Double,System.Boolean,System.Boolean,System.Boolean,System.Int32)">
+            <summary>
+            Fractale ensemble de Julia
+            </summary>
+        </member>
+        <member name="M:Probleme_Info.BMP.EnsembleDeJulia2">
+            <summary>
+            Fractale ensemble de Julia version 2
+            </summary>
+        </member>
+        <member name="M:Probleme_Info.BMP.OverSimplifiedJulia(System.Double,System.Int32,System.Double,System.Double,System.Double,System.Double,System.Double,System.Boolean,System.Boolean,System.Boolean,System.Int32)">
+            <summary>
+            Une version simplifiée et artistique des ensembles de Julia avec un coloring particulier, c'est une innovation artistique selon nous
+            </summary>
+        </member>
+        <member name="M:Probleme_Info.BMP.BuddhaBrot">
+            <summary>
+            Fractale Buddhabrot
+            </summary>
+        </member>
+        <member name="M:Probleme_Info.BMP.TriangleDeSierpinski(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Fractale triangle de Sierpinski (non fonctionnelle)
+            </summary>
+            <param name="xA"></param>
+            <param name="yA"></param>
+            <param name="xB"></param>
+            <param name="yB"></param>
+            <param name="xC"></param>
+            <param name="yC"></param>
+            <param name="n"></param>
+            <returns>return la fractale du triangle de Sierpinski</returns>
+        </member>
+        <member name="M:Probleme_Info.BMP.Histogramme">
+            <summary>
+            Crée un histogramme
+            </summary>
+            <returns> return l'histogramme créé</returns>
+        </member>
+        <member name="M:Probleme_Info.BMP.Hide(Probleme_Info.BMP)">
+            <summary>
+            Cache l'image entrée en paramètre dans l'image
+            </summary>
+            <param name="img1"> image que l'on souhaite cacher</param>
+            <returns> l'image cachée dans l'autre</returns>
+        </member>
+        <member name="M:Probleme_Info.BMP.Find">
+            <summary>
+            Permet de trouver une image cachée dans une autre
+            </summary>
+            <returns>return l'image retrouvée</returns>
+        </member>
+        <member name="M:Probleme_Info.BMP.Resize(System.Int32,System.Int32)">
+            <summary>
+            Permet de redimensionner une image a une taille inferieure ou superieure, mais il faut garder le meme ratio qu'au depart
+            </summary>
+            <returns>return l'image retrouvée</returns>
+        </member>
+        <member name="T:Probleme_Info.Complexe">
+            <summary>
+            Classe nombre complexe
+            </summary>
+        </member>
+        <member name="P:Probleme_Info.Complexe.Re">
+            <summary>
+            Partie réelle du nombre complexe
+            </summary>
+        </member>
+        <member name="P:Probleme_Info.Complexe.Im">
+            <summary>
+            Partie imaginaire du nombre complexe
+            </summary>
+        </member>
+        <member name="M:Probleme_Info.Complexe.#ctor(System.Double,System.Double)">
+            <summary>
+            Constructeur d'un complexe à partir de sa partie réelle et imaginaire
+            </summary>
+            <param name="Re"> partie réelle</param>
+            <param name="Im"> partie imaginaire</param>
+        </member>
+        <member name="M:Probleme_Info.Complexe.mult(Probleme_Info.Complexe,Probleme_Info.Complexe)">
+            <summary>
+            Multiplication de 2 nbr complexes
+            </summary>
+            <param name="a"> premier nombre complexe</param>
+            <param name="b"> second nombre complexe</param>
+            <returns>return un nouveau nombre complexe avec les deux nouvelles parties réelles et imaginaires</returns>
+        </member>
+        <member name="M:Probleme_Info.Complexe.carré">
+            <summary>
+            Carré d'un nombre complexe
+            </summary>
+            <returns>return un nouveau nombre complexe avec les deux nouvelles parties réelles et imaginaires</returns>
+        </member>
+        <member name="M:Probleme_Info.Complexe.add(Probleme_Info.Complexe,Probleme_Info.Complexe)">
+            <summary>
+            Addition de deux nombres complexes
+            </summary>
+            <param name="a"> premier nombre complexe</param>
+            <param name="b"> second nombre complexe</param>
+            <returns>return un nouveau nombre complexe avec les deux nouvelles parties réelles et imaginaires</returns>
+        </member>
+        <member name="M:Probleme_Info.Complexe.minus(Probleme_Info.Complexe,Probleme_Info.Complexe)">
+            <summary>
+            Soustraction d'un nombre complexe par un autre
+            </summary>
+            <param name="a"> premier nombre complexe</param>
+            <param name="b"> second nombre complexe</param>
+            <returns>return un nouveau nombre complexe avec les deux nouvelles parties réelles et imaginaires</returns>
+        </member>
+        <member name="M:Probleme_Info.Complexe.mod">
+            <summary>
+            Donne la norme d'un nombre complexe
+            </summary>
+            <returns>return un int</returns>
+        </member>
+        <member name="M:Probleme_Info.Complexe.addScal(System.Double)">
+            <summary>
+            Addition d'un scalaire à un nombre complexe
+            </summary>
+            <param name="scal"> scalaire à ajouter au complexe</param>
+            <returns>return un nouveau nombre complexe avec la nouvelle partie réelle</returns>
+        </member>
+        <member name="M:Probleme_Info.Complexe.multScal(System.Double)">
+            <summary>
+            Multiplication d'un nombre complexe par un scalaire
+            </summary>
+            <param name="scal"> scalaire qui multiplie le nbr complexe</param>
+            <returns>return un nouveau nombre complexe avec les deux nouvelles parties réelles et imaginaires</returns>
+        </member>
+        <member name="M:Probleme_Info.Complexe.div(Probleme_Info.Complexe,Probleme_Info.Complexe)">
+            <summary>
+            
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Probleme_Info.QRCODE">
+            <summary>
+            Classe QR Code
+            </summary>
+        </member>
+        <member name="P:Probleme_Info.QRCODE.version">
+            <summary>
+            Version du QR Code
+            </summary>
+        </member>
+        <member name="P:Probleme_Info.QRCODE.dataEncoded">
+            <summary>
+            Data transformée sous forme de byte, prête à être dessinée sur une image
+            </summary>
+        </member>
+        <member name="P:Probleme_Info.QRCODE.qrcode">
+            <summary>
+            Image associée au QR Code
+            </summary>
+        </member>
+        <member name="P:Probleme_Info.QRCODE.message">
+            <summary>
+            Message associée au QR Code
+            </summary>
+        </member>
+        <member name="M:Probleme_Info.QRCODE.#ctor(System.String)">
+            <summary>
+            Constructeur QR Code
+            </summary>
+            <param name="data"> data à écrire dans le QR Code</param>
+        </member>
+        <member name="M:Probleme_Info.QRCODE.#ctor(Probleme_Info.BMP)">
+            <summary>
+            Constructeur QR Code a partir d'une image, sert a utiliser le decodeur de qrcode
+            </summary>
+            <param name="imgqr"> image du QR Code a decoder</param>
+        </member>
+        <member name="M:Probleme_Info.QRCODE.alphaNum(System.Char)">
+            <summary>
+            Correspondance char ASCII
+            </summary>
+            <param name="c"> char pour lequel on veut connaître la valeur ASCII</param>
+            <returns>return le code ASCII associé au char</returns>
+        </member>
+        <member name="M:Probleme_Info.QRCODE.IntToalphaNum(System.Int32)">
+            <summary>
+            Correspondance ASCII char
+            </summary>
+            <param name="val"> valeur ASCII pour laquel on veut connaitre le char correspondant</param>
+            <returns>return le har associe au code ASCIIc</returns>
+        </member>
+        <member name="M:Probleme_Info.QRCODE.dataToEncode(System.String)">
+            <summary>
+            Transforme les données à mettre dans le QR Code en byte
+            </summary>
+            <param name="data"> chaine de caractères à encoder</param>
+            <returns>return un tableau de byte correspondant aux données à écrire dans le QR Code</returns>
+        </member>
+        <member name="M:Probleme_Info.QRCODE.Ecriture_PatternFixe(System.Byte[0:,0:],System.Byte,System.Byte)">
+            <summary>
+            Écriture du pattern fixe (carrés dans les coins) sur le QR Code
+            </summary>
+            <param name="qr"> QR Code</param>
+            <param name="i"> coordonnées ligne du coin en haut à gauche du carré à dessiner</param>
+            <param name="j"> coordonnées colonne du coin en haut à gauche du carré à dessiner</param>
+        </member>
+        <member name="M:Probleme_Info.QRCODE.Lecture_PatternFixe(System.Byte[0:,0:],System.Byte,System.Byte)">
+            <summary>
+            Lecture du pattern fixe (carrés dans les coins) sur le QR Code pour verifier si l'image est bien un QR Code
+            </summary>
+            <param name="qr"> QR Code</param>
+            <param name="i"> coordonnées ligne du coin en haut à gauche du carré à lire</param>
+            <param name="j"> coordonnées colonne du coin en haut à gauche du carré à lire</param>
+        </member>
+        <member name="M:Probleme_Info.QRCODE.Ecriture_QRCode(System.Byte[],System.Int32)">
+            <summary>
+            Écrit un QR code
+            </summary>
+            <param name="message"> données en byte à dessiner dans le QR Code</param>
+            <param name="version"> version du QR Code souhaitée</param>
+            <returns>return le QR Code dessiné</returns>
+        </member>
+        <member name="M:Probleme_Info.QRCODE.DataPattern(System.Int32,System.Byte[0:,0:],System.Int32,System.Int32,System.Byte[],System.Int32)">
+            <summary>
+            Sens d'écriture des données dans le QR Code
+            </summary>
+            <param name="nbPattern"></param>
+            <param name="qr"> qr Code</param>
+            <param name="i"> coo ligne du début de l'encodage</param>
+            <param name="j"> coo colonne du début de l'encodage</param>
+            <param name="message"> data à encoder</param>
+            <param name="k"> avancement de l'index dans les données</param>
+        </member>
+        <member name="M:Probleme_Info.QRCODE.QR_Read(Probleme_Info.BMP)">
+            <summary>
+            Lit un QR code
+            </summary>
+            <param name="qrcode"> image du QR Code a decoder pour en retrouver le message</param>
+            <returns>return le message inscrit dans le Qr Code</returns>
+        </member>
+        <member name="M:Probleme_Info.QRCODE.DataPatternReader(System.Int32,System.Byte[0:,0:],System.Int32,System.Int32,System.Byte[],System.Int32)">
+            <summary>
+            Sens de lecture des données dans le QR Code
+            </summary>
+            <param name="nbPattern"></param>
+            <param name="qr"> qr Code</param>
+            <param name="i"> coo ligne du début du decodage</param>
+            <param name="j"> coo colonne du début du decodage</param>
+            <param name="message"> tableau de byte de la chaine de donnees du qrcode qui sera remplie par cette methode de lecture</param>
+            <param name="k"> avancement de l'index dans les données</param>
+        </member>
+        <member name="P:Probleme_Info.RGB.rgb">
+            <summary>
+            Tableau contenant les valeurs RGB d'un pixel
+            </summary>
+        </member>
+        <member name="M:Probleme_Info.RGB.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Constrcteur d'un pixel RGB
+            </summary>
+            <param name="red"> valeur rouge du pixel</param>
+            <param name="green"> valeur verte du pixel</param>
+            <param name="blue"> valeur bleue du pixel</param>
+        </member>
+        <member name="M:Probleme_Info.RGB.toString">
+            <summary>
+            Donne le résumé des infos principales d'un pixl RGB
+            </summary>
+            <returns>return un string contenant toutes ces infos</returns>
+        </member>
+        <member name="M:Probleme_Info.RGB.Negatif">
+            <summary>
+            Réalise le négatif de chaque pixel RGB 
+            </summary>
+        </member>
+        <member name="M:Probleme_Info.RGB.BW">
+            <summary>
+            Attribution d'un coefficient noir et blanc à chaque pixel en fonction de sa couleur de base
+            </summary>
+        </member>
+        <member name="M:Probleme_Info.RGB.Brightness(System.Double)">
+            <summary>
+            Éclaircit une image par un coef
+            </summary>
+            <param name="value"> coef d'éclaircissement</param>
+        </member>
+        <member name="M:Probleme_Info.RGB.EscapeColoring(System.Int32,System.Double,System.Double,System.Double)">
+            <summary>
+            Colorisation pour fractales ensemble de Juila/Manselbrot
+            </summary>
+            <param name="n"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Probleme_Info.RGB.EscapeColoringBW(System.Int32,System.Double)">
+            <summary>
+            Colorisation pour fractales ensemble de Julia/Mandelbrot
+            </summary>
+            <param name="n"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ReedSolomon.GenericGF">
+            <summary>
+              <p>This class contains utility methods for performing mathematical operations over
+            the Galois Fields. Operations use a given primitive polynomial in calculations.</p>
+              <p>Throughout this package, elements of the GF are represented as an {@code int}
+            for convenience and speed (but at the cost of memory).
+              </p>
+            </summary>
+            <author>Sean Owen</author>
+        </member>
+        <member name="M:ReedSolomon.GenericGF.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Create a representation of GF(size) using the given primitive polynomial.
+            </summary>
+            <param name="primitive">irreducible polynomial whose coefficients are represented by
+            *  the bits of an int, where the least-significant bit represents the constant
+            *  coefficient</param>
+            <param name="size">the size of the field</param>
+            <param name="genBase">the factor b in the generator polynomial can be 0- or 1-based
+            *  (g(x) = (x+a^b)(x+a^(b+1))...(x+a^(b+2t-1))).
+            *  In most cases it should be 1, but for QR code it is 0.</param>
+        </member>
+        <member name="M:ReedSolomon.GenericGF.BuildMonomial(System.Int32,System.Int32)">
+            <summary>
+            Builds the monomial.
+            </summary>
+            <param name="degree">The degree.</param>
+            <param name="coefficient">The coefficient.</param>
+            <returns>the monomial representing coefficient * x^degree</returns>
+        </member>
+        <member name="M:ReedSolomon.GenericGF.AddOrSubtract(System.Int32,System.Int32)">
+            <summary>
+            Implements both addition and subtraction -- they are the same in GF(size).
+            </summary>
+            <returns>sum/difference of a and b</returns>
+        </member>
+        <member name="M:ReedSolomon.GenericGF.Exp(System.Int32)">
+            <summary>
+            Exps the specified a.
+            </summary>
+            <returns>2 to the power of a in GF(size)</returns>
+        </member>
+        <member name="M:ReedSolomon.GenericGF.Log(System.Int32)">
+            <summary>
+            Logs the specified a.
+            </summary>
+            <param name="a">A.</param>
+            <returns>base 2 log of a in GF(size)</returns>
+        </member>
+        <member name="M:ReedSolomon.GenericGF.Inverse(System.Int32)">
+            <summary>
+            Inverses the specified a.
+            </summary>
+            <returns>multiplicative inverse of a</returns>
+        </member>
+        <member name="M:ReedSolomon.GenericGF.Multiply(System.Int32,System.Int32)">
+            <summary>
+            Multiplies the specified a with b.
+            </summary>
+            <param name="a">A.</param>
+            <param name="b">The b.</param>
+            <returns>product of a and b in GF(size)</returns>
+        </member>
+        <member name="P:ReedSolomon.GenericGF.Size">
+            <summary>
+            Gets the size.
+            </summary>
+        </member>
+        <member name="P:ReedSolomon.GenericGF.GeneratorBase">
+            <summary>
+            Gets the generator base.
+            </summary>
+        </member>
+        <member name="M:ReedSolomon.GenericGF.ToString">
+            <summary>
+            Returns a <see cref="T:System.String"/> that represents this instance.
+            </summary>
+            <returns>
+            A <see cref="T:System.String"/> that represents this instance.
+            </returns>
+        </member>
+        <member name="T:ReedSolomon.GenericGFPoly">
+            <summary>
+            <p>Represents a polynomial whose coefficients are elements of a GF.
+            Instances of this class are immutable.</p>
+            <p>Much credit is due to William Rucklidge since portions of this code are an indirect
+            port of his C++ Reed-Solomon implementation.</p>
+            </summary>
+            <author>Sean Owen</author>
+        </member>
+        <member name="M:ReedSolomon.GenericGFPoly.#ctor(ReedSolomon.GenericGF,System.Int32[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:ReedSolomon.GenericGFPoly"/> class.
+            </summary>
+            <param name="field">the {@link GenericGF} instance representing the field to use
+            to perform computations</param>
+            <param name="coefficients">coefficients as ints representing elements of GF(size), arranged
+            from most significant (highest-power term) coefficient to least significant</param>
+            <exception cref="T:System.ArgumentException">if argument is null or empty,
+            or if leading coefficient is 0 and this is not a
+            constant polynomial (that is, it is not the monomial "0")</exception>
+        </member>
+        <member name="P:ReedSolomon.GenericGFPoly.Degree">
+            <summary>
+            degree of this polynomial
+            </summary>
+        </member>
+        <member name="P:ReedSolomon.GenericGFPoly.IsZero">
+            <summary>
+            Gets a value indicating whether this <see cref="T:ReedSolomon.GenericGFPoly"/> is zero.
+            </summary>
+            <value>true iff this polynomial is the monomial "0"</value>
+        </member>
+        <member name="M:ReedSolomon.GenericGFPoly.GetCoefficient(System.Int32)">
+            <summary>
+            coefficient of x^degree term in this polynomial
+            </summary>
+            <param name="degree">The degree.</param>
+            <returns>coefficient of x^degree term in this polynomial</returns>
+        </member>
+        <member name="M:ReedSolomon.GenericGFPoly.EvaluateAt(System.Int32)">
+            <summary>
+            evaluation of this polynomial at a given point
+            </summary>
+            <param name="a">A.</param>
+            <returns>evaluation of this polynomial at a given point</returns>
+        </member>
+        <member name="M:ReedSolomon.ReedSolomonAlgorithm.Encode(System.Byte[],System.Int32,ReedSolomon.ErrorCorrectionCodeType)">
+            <summary>
+            Produces error correction codewords for a message using the Reed-Solomon algorithm.
+            </summary>
+            <param name="message">The message to compute the error correction codewords.</param>
+            <param name="eccCount">The number of error correction codewords desired.</param>
+            <param name="eccType">The type of Galois field to use to encode error correction codewords.</param>
+            <returns>Returns the computed error correction codewords.</returns>
+        </member>
+        <member name="M:ReedSolomon.ReedSolomonAlgorithm.Encode(System.Byte[],System.Int32)">
+            <summary>
+            Produces error correction codewords for a message using the Reed-Solomon algorithm.
+            </summary>
+            <param name="message">The message to compute the error correction codewords.</param>
+            <param name="eccCount">The number of error correction codewords desired.</param>
+            <returns>Returns the computed error correction codewords.</returns>
+        </member>
+        <member name="M:ReedSolomon.ReedSolomonAlgorithm.Decode(System.Byte[],System.Byte[],ReedSolomon.ErrorCorrectionCodeType)">
+            <summary>
+            Repairs a possibly broken message using the Reed-Solomon algorithm.
+            </summary>
+            <param name="message">The possibly broken message to repair.</param>
+            <param name="ecc">The available error correction codewords.</param>
+            <param name="eccType">The type of Galois field to use to decode message.</param>
+            <returns>Returns the repaired message, or null if it cannot be repaired.</returns>
+        </member>
+        <member name="M:ReedSolomon.ReedSolomonAlgorithm.Decode(System.Byte[],System.Byte[])">
+            <summary>
+            Repairs a possibly broken message using the Reed-Solomon algorithm.
+            </summary>
+            <param name="message">The possibly broken message to repair.</param>
+            <param name="ecc">The available error correction codewords.</param>
+            <returns>Returns the repaired message, or null if it cannot be repaired.</returns>
+        </member>
+        <member name="T:ReedSolomon.ReedSolomonDecoder">
+            <summary> <p>Implements Reed-Solomon decoding, as the name implies.</p>
+            
+            <p>The algorithm will not be explained here, but the following references were helpful
+            in creating this implementation:</p>
+            
+            <ul>
+            <li>Bruce Maggs.
+            <a href="http://www.cs.cmu.edu/afs/cs.cmu.edu/project/pscico-guyb/realworld/www/rs_decode.ps">
+            "Decoding Reed-Solomon Codes"</a> (see discussion of Forney's Formula)</li>
+            <li>J.I. Hall. <a href="www.mth.msu.edu/~jhall/classes/codenotes/GRS.pdf">
+            "Chapter 5. Generalized Reed-Solomon Codes"</a>
+            (see discussion of Euclidean algorithm)</li>
+            </ul>
+            
+            <p>Much credit is due to William Rucklidge since portions of this code are an indirect
+            port of his C++ Reed-Solomon implementation.</p>
+            
+            </summary>
+            <author>Sean Owen</author>
+            <author>William Rucklidge</author>
+            <author>sanfordsquires</author>
+        </member>
+        <member name="M:ReedSolomon.ReedSolomonDecoder.Decode(System.Int32[],System.Int32)">
+            <summary>
+              <p>Decodes given set of received codewords, which include both data and error-correction
+            codewords. Really, this means it uses Reed-Solomon to detect and correct errors, in-place,
+            in the input.</p>
+            </summary>
+            <param name="received">data and error-correction codewords</param>
+            <param name="twoS">number of error-correction codewords available</param>
+            <returns>false: decoding fails</returns>
+        </member>
+        <member name="T:ReedSolomon.ReedSolomonEncoder">
+            <summary>
+            Implements Reed-Solomon encoding, as the name implies.
+            </summary>
+            <author>Sean Owen</author>
+            <author>William Rucklidge</author>
+        </member>
+    </members>
+</doc>
